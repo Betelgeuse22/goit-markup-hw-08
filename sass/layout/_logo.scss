@@ -1,0 +1,49 @@
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--accent-color);
+  margin-right: 93px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav__logo {
+  &:focus,
+  &:hover {
+    color: var(--title-text-color);
+  }
+
+  &::after {
+    content: 'Studio';
+    color: var(--title-text-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &:focus::after,
+  &:hover::after {
+    color: var(--accent-color);
+  }
+}
+
+.footer-box__logo {
+  &:focus,
+  &:hover {
+    color: var(--secondary-text-color);
+  }
+
+  &::after {
+    content: 'Studio';
+    color: var(--secondary-text-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &:focus::after,
+  &:hover::after {
+    color: var(--accent-color);
+  }
+}
