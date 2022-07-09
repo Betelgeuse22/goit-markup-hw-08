@@ -1,27 +1,86 @@
 .hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 118px;
+  padding-bottom: 118px;
   background-color: #2f303a;
   text-align: center;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/background-img.jpg);
-  height: 600px;
-  max-width: 1600px;
+    url(../../images/hero_mobile.jpg);
+  @include min-dpi-2x {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../images/hero_mobile_2x.jpg);
+  }
+
+  @include tablet {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../images/hero_tablet.jpg);
+
+    @include min-dpi-2x {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../../images/hero_tablet_2x.jpg);
+    }
+  }
+
+  @include desktop {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../images/hero_desktop.jpg);
+
+    @include min-dpi-2x {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../../images/hero_desktop_2x.jpg);
+    }
+    max-width: 1600px;
+  }
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .hero-content__title {
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 18px;
+  line-height: 1.61;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
   color: var(--secondary-text-color);
-  max-width: 696px;
-  margin: 0 auto 30px;
+  max-width: 280px;
+  margin-bottom: 30px;
+
+  @include mobile {
+    max-width: 360px;
+    font-size: 26px;
+  }
+
+  @include desktop {
+    max-width: 696px;
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }

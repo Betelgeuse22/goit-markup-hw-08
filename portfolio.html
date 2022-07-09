@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="header">
+    <!-- <header class="header">
       <div class="container">
         <nav class="nav">
           <a href="./index.html" class="logo nav__logo">Web</a>
@@ -40,7 +40,7 @@
           </div>
         </nav>
       </div>
-    </header>
+    </header> -->
     <main>
       <section class="portfolio">
         <div class="container">
@@ -67,12 +67,34 @@
               <div class="filter-list__card">
                 <a href="" class="filter-list__link">
                   <div class="filter-list__thumb">
-                    <img
-                      src="./images/project1.jpg"
-                      alt="Фото_1"
-                      width="370"
-                      height="294"
-                    />
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/370x294_project_1_desktop.jpg    1x,
+                          ./images/370x294_project_1_desktop_x2.jpg 2x
+                        "
+                        media="(min-width: 1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/354x294_project_1_tablet.jpg    1x,
+                          ./images/354x294_project_1_tablet_x2.jpg 2x
+                        "
+                        media="(min-width: 768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/450x294_project_1_mobile.jpg   1x,
+                          ./images/450x294_project_1_mobile_x2.jpg 2x
+                        "
+                        media="(min-width: 320px)"
+                      />
+                      <img
+                        src="./images/450x294_project_1_mobile.jpg"
+                        alt="Фото_1"
+                        width="450"
+                      />
+                    </picture>
                     <p class="filter-list__description">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
@@ -92,12 +114,34 @@
               <div class="filter-list__card">
                 <a href="" class="filter-list__link">
                   <div class="filter-list__thumb">
-                    <img
-                      src="./images/project2.jpg"
-                      alt="Фото_2"
-                      width="370"
-                      height="294"
-                    />
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/370x294_project_2_desktop.jpg    1x,
+                          ./images/370x294_project_2_desktop_x2.jpg 2x
+                        "
+                        media="(min-width: 1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/354x294_project_2_tablet.jpg    1x,
+                          ./images/354x294_project_2_tablet_x2.jpg 2x
+                        "
+                        media="(min-width: 768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/450x294_project_2_mobile.jpg   1x,
+                          ./images/450x294_project_2_mobile_x2.jpg 2x
+                        "
+                        media="(min-width: 320px)"
+                      />
+                      <img
+                        src="./images/450x294_project_2_mobile.jpg"
+                        alt="Фото_2"
+                        width="450"
+                      />
+                    </picture>
                     <p class="filter-list__description">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
@@ -118,12 +162,34 @@
               <div class="filter-list__card">
                 <a href="" class="filter-list__link">
                   <div class="filter-list__thumb">
-                    <img
-                      src="./images/project3.jpg"
-                      alt="Фото_3"
-                      width="370"
-                      height="294"
-                    />
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/370x294_project_3_desktop.jpg    1x,
+                          ./images/370x294_project_3_desktop_x2.jpg 2x
+                        "
+                        media="(min-width: 1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/354x294_project_3_tablet.jpg    1x,
+                          ./images/354x294_project_3_tablet_x2.jpg 2x
+                        "
+                        media="(min-width: 768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/450x294_project_3_mobile.jpg   1x,
+                          ./images/450x294_project_3_mobile_x2.jpg 2x
+                        "
+                        media="(min-width: 320px)"
+                      />
+                      <img
+                        src="./images/450x294_project_3_mobile.jpg"
+                        alt="Фото_3"
+                        width="450"
+                      />
+                    </picture>
                     <p class="filter-list__description">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
@@ -142,12 +208,35 @@
               <div class="filter-list__card">
                 <a href="" class="filter-list__link">
                   <div class="filter-list__thumb">
-                    <img
-                      src="./images/project4.jpg"
-                      alt="Фото_4"
-                      width="370"
-                      height="294"
-                    />
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/370x294_project_4_desktop.jpg    1x,
+                          ./images/370x294_project_4_desktop_x2.jpg 2x
+                        "
+                        media="(min-width: 1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/354x294_project_4_tablet.jpg    1x,
+                          ./images/354x294_project_4_tablet_x2.jpg 2x
+                        "
+                        media="(min-width: 768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/450x294_project_4_mobile.jpg   1x,
+                          ./images/450x294_project_4_mobile_x2.jpg 2x
+                        "
+                        media="(min-width: 320px)"
+                      />
+                      <img
+                        src="./images/450x294_project_4_mobile.jpg"
+                        alt="Фото_4"
+                        width="450"
+                      />
+                    </picture>
+                    </picture>
                     <p class="filter-list__description">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
@@ -166,12 +255,34 @@
               <div class="filter-list__card">
                 <a href="" class="filter-list__link">
                   <div class="filter-list__thumb">
-                    <img
-                      src="./images/project5.jpg"
-                      alt="Фото_5"
-                      width="370"
-                      height="294"
-                    />
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/370x294_project_5_desktop.jpg    1x,
+                          ./images/370x294_project_5_desktop_x2.jpg 2x
+                        "
+                        media="(min-width: 1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/354x294_project_5_tablet.jpg    1x,
+                          ./images/354x294_project_5_tablet_x2.jpg 2x
+                        "
+                        media="(min-width: 768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/450x294_project_5_mobile.jpg   1x,
+                          ./images/450x294_project_5_mobile_x2.jpg 2x
+                        "
+                        media="(min-width: 320px)"
+                      />
+                      <img
+                        src="./images/450x294_project_5_mobile.jpg"
+                        alt="Фото_5"
+                        width="450"
+                      />
+                    </picture>
                     <p class="filter-list__description">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
@@ -190,12 +301,34 @@
               <div class="filter-list__card">
                 <a href="" class="filter-list__link">
                   <div class="filter-list__thumb">
-                    <img
-                      src="./images/project6.jpg"
-                      alt="Фото_6"
-                      width="370"
-                      height="294"
-                    />
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/370x294_project_6_desktop.jpg    1x,
+                          ./images/370x294_project_6_desktop_x2.jpg 2x
+                        "
+                        media="(min-width: 1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/354x294_project_6_tablet.jpg    1x,
+                          ./images/354x294_project_6_tablet_x2.jpg 2x
+                        "
+                        media="(min-width: 768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/450x294_project_6_mobile.jpg   1x,
+                          ./images/450x294_project_6_mobile_x2.jpg 2x
+                        "
+                        media="(min-width: 320px)"
+                      />
+                      <img
+                        src="./images/450x294_project_6_mobile.jpg"
+                        alt="Фото_6"
+                        width="450"
+                      />
+                    </picture>
                     <p class="filter-list__description">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
@@ -216,12 +349,34 @@
               <div class="filter-list__card">
                 <a href="" class="filter-list__link">
                   <div class="filter-list__thumb">
-                    <img
-                      src="./images/project7.jpg"
-                      alt="Фото_7"
-                      width="370"
-                      height="294"
-                    />
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/370x294_project_7_desktop.jpg    1x,
+                          ./images/370x294_project_7_desktop_x2.jpg 2x
+                        "
+                        media="(min-width: 1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/354x294_project_7_tablet.jpg    1x,
+                          ./images/354x294_project_7_tablet_x2.jpg 2x
+                        "
+                        media="(min-width: 768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/450x294_project_7_mobile.jpg   1x,
+                          ./images/450x294_project_7_mobile_x2.jpg 2x
+                        "
+                        media="(min-width: 320px)"
+                      />
+                      <img
+                        src="./images/450x294_project_7_mobile.jpg"
+                        alt="Фото_7"
+                        width="450"
+                      />
+                    </picture>
                     <p class="filter-list__description">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
@@ -240,12 +395,34 @@
               <div class="filter-list__card">
                 <a href="" class="filter-list__link">
                   <div class="filter-list__thumb">
-                    <img
-                      src="./images/project8.jpg"
-                      alt="Фото_8"
-                      width="370"
-                      height="294"
-                    />
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/370x294_project_8_desktop.jpg    1x,
+                          ./images/370x294_project_8_desktop_x2.jpg 2x
+                        "
+                        media="(min-width: 1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/354x294_project_8_tablet.jpg    1x,
+                          ./images/354x294_project_8_tablet_x2.jpg 2x
+                        "
+                        media="(min-width: 768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/450x294_project_8_mobile.jpg   1x,
+                          ./images/450x294_project_8_mobile_x2.jpg 2x
+                        "
+                        media="(min-width: 320px)"
+                      />
+                      <img
+                        src="./images/450x294_project_8_mobile.jpg"
+                        alt="Фото_8"
+                        width="450"
+                      />
+                    </picture>
                     <p class="filter-list__description">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
@@ -264,12 +441,35 @@
               <div class="filter-list__card">
                 <a href="" class="filter-list__link">
                   <div class="filter-list__thumb">
-                    <img
-                      src="./images/project9.jpg"
-                      alt="Фото_9"
-                      width="370"
-                      height="294"
-                    />
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/370x294_project_9_desktop.jpg    1x,
+                          ./images/370x294_project_9_desktop_x2.jpg 2x
+                        "
+                        media="(min-width: 1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/354x294_project_9_tablet.jpg    1x,
+                          ./images/354x294_project_9_tablet_x2.jpg 2x
+                        "
+                        media="(min-width: 768px)"
+                      />
+                      <source
+                        srcset="
+                          ./images/450x294_project_9_mobile.jpg   1x,
+                          ./images/450x294_project_9_mobile_x2.jpg 2x
+                        "
+                        media="(min-width: 320px)"
+                      />
+                      <img
+                        src="./images/450x294_project_9_mobile.jpg"
+                        alt="Фото_9"
+                        width="450"
+                      />
+                    </picture>
+                    </picture>
                     <p class="filter-list__description">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
@@ -288,7 +488,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container footer-container">
         <div class="footer-box">
           <a href="./index.html" class="footer-box__logo logo">Web</a>
@@ -362,6 +562,6 @@
           </div>
         </form>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>
