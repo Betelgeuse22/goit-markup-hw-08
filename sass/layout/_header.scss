@@ -99,6 +99,7 @@
 
 .auth__link {
   display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 12px;
   line-height: calc(14 / 12);
@@ -131,6 +132,7 @@
   @include desktop {
     font-size: 14px;
     line-height: calc(16 / 14);
+    justify-content: center;
   }
 }
 

@@ -749,6 +749,7 @@ a {
 
 .auth__link {
   display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.1666666667;
@@ -779,6 +780,7 @@ a {
   .auth__link {
     font-size: 14px;
     line-height: 1.1428571429;
+    justify-content: center;
   }
 }
 
