@@ -7,13 +7,13 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../../images/hero_mobile.jpg);
+    url(../images/hero_mobile.jpg);
   @include min-dpi-2x {
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../../images/hero_mobile_2x.jpg);
+      url(../images/hero_mobile_2x.jpg);
   }
 
   @include tablet {
@@ -21,14 +21,14 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../../images/hero_tablet.jpg);
+      url(../images/hero_tablet.jpg);
 
     @include min-dpi-2x {
       background-image: linear-gradient(
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../../images/hero_tablet_2x.jpg);
+        url(../images/hero_tablet_2x.jpg);
     }
   }
 
@@ -39,14 +39,14 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../../images/hero_desktop.jpg);
+      url(../images/hero_desktop.jpg);
 
     @include min-dpi-2x {
       background-image: linear-gradient(
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../../images/hero_desktop_2x.jpg);
+        url(../images/hero_desktop_2x.jpg);
     }
     max-width: 1600px;
   }
