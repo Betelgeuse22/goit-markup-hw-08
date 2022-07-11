@@ -625,6 +625,7 @@ a {
 }
 
 .modal__link {
+  text-decoration: underline;
   color: var(--accent-color);
 }
 
@@ -639,14 +640,16 @@ a {
 
 .title {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  font-size: 28px;
+  line-height: 1.17;
   text-align: center;
   color: var(--title-text-color);
   margin-bottom: 30px;
 }
 @media screen and (min-width: 1200px) {
   .title {
+    font-size: 36px;
+    line-height: 1.16;
     margin-bottom: 50px;
   }
 }
@@ -1117,20 +1120,21 @@ a {
 }
 
 .about {
+  display: none;
   padding-bottom: 94px;
 }
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 1200px) {
   .about {
-    display: none;
+    display: block;
   }
 }
 
 .about-list {
   display: flex;
+  gap: 30px;
 }
 
 .about-list__item {
-  margin-right: 30px;
   position: relative;
 }
 

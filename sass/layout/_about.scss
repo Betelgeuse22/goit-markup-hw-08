@@ -1,18 +1,18 @@
 .about {
+  display: none;
   padding-bottom: 94px;
 
-  @media screen and (max-width: 1199px) {
-    display: none;
+  @include desktop {
+    display: block;
   }
-
 }
 
 .about-list {
   display: flex;
+  gap: 30px;
 }
 
 .about-list__item {
-  margin-right: 30px;
   position: relative;
 }
 
