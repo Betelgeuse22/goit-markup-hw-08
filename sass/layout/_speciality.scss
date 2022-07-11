@@ -28,16 +28,10 @@
   font-size: 14px;
   line-height: 1.71;
 
-  // @include tablet {
-  //   margin-bottom: 0;
-  // }
-
-  // @include desktop {
-  //   margin-bottom: 0;
-  // }
 }
 
 .speciality-list {
+
   @include tablet {
     display: flex;
     flex-wrap: wrap;
@@ -45,7 +39,7 @@
   }
   @include desktop {
     display: flex;
-    gap: 30px;
+    justify-content: center;
   }
 }
 
